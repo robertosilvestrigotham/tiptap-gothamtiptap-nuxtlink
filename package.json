@@ -1,8 +1,8 @@
 {
   "name": "@tiptap/gothamtiptap-nuxtlink",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Tiptap nuxt-link extension",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
     "test": "testnuxtlink"
   },
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/robertosilvestrigotham/tiptap-gothamtiptap-nuxtlink.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Gothamsiti",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/robertosilvestrigotham/tiptap-gothamtiptap-nuxtlink/issues"
   },
