@@ -1,0 +1,25 @@
+{
+  "name": "@tiptap/gothamtiptap-nuxtlink",
+  "version": "1.0.0",
+  "description": "Tiptap nuxt-link extension",
+  "main": "index.ts",
+  "scripts": {
+    "test": "testnuxtlink"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertosilvestrigotham/tiptap-gothamtiptap-nuxtlink.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertosilvestrigotham/tiptap-gothamtiptap-nuxtlink/issues"
+  },
+  "homepage": "https://github.com/robertosilvestrigotham/tiptap-gothamtiptap-nuxtlink#readme",
+  "peerDependencies": {
+    "@tiptap/core": "^2.0.0-beta.86"
+  },
+  "dependencies": {
+    "prosemirror-state": "^1.3.4"
+  }
+}
