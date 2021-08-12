@@ -1,7 +1,7 @@
 {
   "name": "gothamtiptap-nuxtlink",
-  "version": "0.0.3",
-  "description": "Tiptap nuxt-link extension",
+  "version": "0.0.4",
+  "description": "Tiptap nuxwt-link extension",
   "main": "index.js",
   "scripts": {
     "test": "testnuxtlink"
