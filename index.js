@@ -1,5 +1,5 @@
-const { Mark } = require('@tiptap/core');
-module.exports.NuxtLink = Mark.create({
+var { Mark } = require('@tiptap/core');
+const NuxtLink = Mark.create({
     name: 'NuxtLink',
     priority: 1000,
     defaultOptions:{},
@@ -33,3 +33,4 @@ module.exports.NuxtLink = Mark.create({
         }
     }
 })
+module.exports.NuxtLink = NuxtLink;
