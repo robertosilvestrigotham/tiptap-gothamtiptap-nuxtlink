@@ -1,8 +1,8 @@
 import { Mark } from '@tiptap/core';
-export default NuxtLink = Mark.create({
+export const NuxtLink = Mark.create({
     name: 'NuxtLink',
     priority: 1000,
-    defaultOptions:{},
+    addOptions:{},
     content: 'paragraph*',
     addAttributes(){
         return {
