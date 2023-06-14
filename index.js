@@ -1,5 +1,5 @@
-import { Mark } from '@tiptap/core';
-export const NuxtLink = Mark.create({
+var { Mark } = require('@tiptap/core');
+const NuxtLink = Mark.create({
     name: 'NuxtLink',
     priority: 1000,
     addOptions:{},
@@ -33,3 +33,4 @@ export const NuxtLink = Mark.create({
         }
     }
 })
+module.exports.NuxtLink = NuxtLink;
